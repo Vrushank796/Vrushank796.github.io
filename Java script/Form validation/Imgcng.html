@@ -1,0 +1,45 @@
+
+
+<html>
+
+<head>
+
+<script type="text/javascript">
+
+function t1(){
+
+if(x>=2)
+
+x=0;
+
+else
+
+x=x+1;
+
+document.getElementById("t3").src=arr[x];
+
+}
+
+function t2(){
+
+setInterval(t1,1000);
+
+}
+
+var arr=[],x=-1;
+
+arr[0]="nfs.jpg";
+
+arr[1]="mid.jpg";
+
+arr[2]="front.jpg";
+
+</script>
+
+</head>
+
+<body onload="t2()">
+<center>
+<img src="front.jpg" width="85%" height="95%" id="t3"> </body>
+</center>
+</html>
