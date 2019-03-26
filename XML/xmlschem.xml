@@ -1,9 +1,0 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
-<student
-xmlns:xsi="XMLSchema-instance"
-xsi:schemaLocation="xmlsch.xsd"> 
-	<enroll>1620bece30183</enroll>
-	<name>vrushank</name>
-	<mobno>9428026763</mobno>
-	<email>vrushank796@gmail.com</email>
-</student>	
