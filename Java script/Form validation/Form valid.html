@@ -1,0 +1,52 @@
+<html>
+<head>
+  <script>
+   function validateform()
+   {
+      var name=document.myForm.name.value;
+	  var password=document.myForm.password.value;
+	 
+
+     if(name=='')
+	 {
+	  alert("Please Enter your Name")
+	 }
+	 else if(password.length<6 || password.length>12)
+	 {
+	  alert("Invalid password(6-12 character)")
+	 }
+	 else if(mobno.length!=10)
+	 {
+	   prompt("Invalid mobile no")
+	 }
+	 else
+	 {
+	 	alert("Form submitted successfully")
+	 }
+	
+	}
+
+   
+	</script>
+</head>
+<body background="back.png">
+	<center-left>
+		<h1>Registration Form</h1>
+		<hr color="white">
+	<form name="myForm" onsubmit="validateform()">
+ 		Username :
+ 		  <input type="text"  name="name" required pattern="[0-9a-zA-Z_.-]*"><br><br>
+ 		Password : 
+ 		  <input type="password" required name="passw" id="passw"> <br>
+		  Show password:
+		  <input type="checkbox" required name="pshow" onclick=(document.getElementById("pass").type="text")><br>
+		Email :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ 		  <input type="email" required name="email"><br><br>
+		Mobile no :
+		  <input type="number"  required name="mobno"><br><br>
+		  <input type="checkbox" required name="check">Agree Terms & condition<br><br> 		
+		  <input type="submit">
+	 </form>
+ </center>
+</body>
+</html>

@@ -1,0 +1,8 @@
+          <xs:schema xmlns:xs="xmlschem.xml">
+	<xs:element name="Student">
+		<xs:element name="name">
+		<xs:element name="enroll">
+		<xs:element name="email">
+		<xs:element name="mobno">
+	  </xs:element>
+                </xs:schema>

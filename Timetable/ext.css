@@ -1,0 +1,31 @@
+
+
+body
+{
+		
+		text-align:center;
+		font-family:Times new roman;
+		font-style:bold;
+}
+pre
+{
+  color:blue;	
+}	
+table, td, th
+{
+  border:1px solid blue;
+}
+
+th
+{
+background-color:blue;
+color:white;
+}
+
+ h3
+ {
+  color:blue;
+  border-color:blue;
+  border-style:	solid;
+ }
+

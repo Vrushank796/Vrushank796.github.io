@@ -1,0 +1,32 @@
+<html>
+<head>
+	 <script>
+	 	var imgchanger='f'
+	 function change()
+	 {
+	 	var image=document.getElementById('pic');
+	    if(imgchanger=='f'){
+	      image.src="front.jpg" 
+	      imgchanger='m' 
+	    }
+	    else if(imgchanger=='m')
+	    {
+	    	image.src="mid.jpg"
+	    	imgchanger='n'
+	    }
+	    else{
+	    	image.src="nfs.jpg"
+	        imgchanger='f'    
+	    }
+	 
+	 }
+	var timer=setInterval('change()',1000);
+
+	</script>
+</head>
+<body>
+<center>
+<img src="front.jpg" id="pic" width="85%" height="95%"/>
+</center>
+</body>
+</html>
